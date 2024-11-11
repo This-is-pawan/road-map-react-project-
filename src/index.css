@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  user-select: none;
+box-sizing: border-box;
+}
+body{
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  letter-spacing: 2px;
+}
+
+a{
+  text-decoration: none;
+  letter-spacing: 5px;
+  font-size: 100%;
+}
+a:hover{
+  color: yellowgreen;
+}
+ul{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+
+}
+li{
+  list-style-type: none;
+}
+
+nav{
+  width: 100vw;
+}
+.navBar{
+  box-shadow: 2px 2px 5px rgb(252, 251, 252);
+  position: fixed;
+  /* top: 0; */
+  width: 100%;
+  padding: 1.5rem;
+  background: white;
+}
+.containerAlign{
+  width: 100%;
+  height: 80vh;
+background:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)) ,url('https://images.pexels.com/photos/906150/pexels-photo-906150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') left / cover no-repeat ;
+}
+.containerAlign h1{
+color: white;
+position: absolute;
+top: 50%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 3rem;
+text-transform: capitalize;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+
