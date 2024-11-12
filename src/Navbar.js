@@ -3,21 +3,22 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
+      <section>
       <nav>
         <div className="navBar">
           <ul>
             <li>
-              <a href="##" title="Home" target="_blank">
+              <a href="#home" title="Home" >
                 Home
               </a>
             </li>
             <li>
-              <a href="##" title="About" target="_blank">
+              <a href="#about" title="About">
                 About
               </a>
             </li>
             <li>
-              <a href="##" title="Contact" target="_blank">
+              <a href="#contact" title="Contact" >
                 Contact
               </a>
             </li>
@@ -30,6 +31,7 @@ const Navbar = () => {
           <h1>This is a nature of Beauty</h1>
         </div>
       </div>
+      </section>
     </div>
   );
 };
